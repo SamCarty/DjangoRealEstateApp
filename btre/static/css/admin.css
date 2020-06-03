@@ -8,7 +8,7 @@
     color: white;
 }
 
-a:link
+a:link,
 a:visited {
     color: #10284e;
 }

@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 
 def register(request):
-    if (request.method == 'POST'):
+    if request.method == 'POST':
         # register user
         first_name = request.POST['first_name']
         last_name = request.POST['last_name']
@@ -36,7 +36,7 @@ def register(request):
 
 
 def login(request):
-    if (request.method == 'POST'):
+    if request.method == 'POST':
         # login user
         username = request.POST['username']
         password = request.POST['password']
@@ -55,7 +55,7 @@ def login(request):
 
 
 def logout(request):
-    if (request.method == 'POST'):
+    if request.method == 'POST':
         auth.logout(request)
         messages.success(request, "You have been logged out successfully")
     return redirect('index')

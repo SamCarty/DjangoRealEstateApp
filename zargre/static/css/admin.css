@@ -1,6 +1,6 @@
 #header {
     height: 50px;
-    background: #10284e;
+    background: #10284E;
     color: white;
 }
 
@@ -10,14 +10,13 @@
 
 a:link,
 a:visited {
-    color: #10284e;
+    color: #10284E;
 }
 
 div.breadcrumbs {
-    background: #10284e;
+    background: #10284E;
 }
 
 .module h2, .module caption, .inline-group h2 {
-    background: #10284e;
+    background: #10284E;
 } 
-

@@ -10,12 +10,11 @@
             <div class="home-search p-5">
                 <div class="overlay p-5">
                     <h1 class="display-4 mb-4">
-                        Property Searching Just Got So Easy
+                        Find Your New Dream Home
                     </h1>
-                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quas,
-                        asperiores eveniet
-                        vel nostrum magnam
-                        voluptatum tempore! Consectetur, id commodi!</p>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id augue a felis
+                        efficitur laoreet. Cras tristique, sem in ullamcorper malesuada, tortor lorem aliquet risus,
+                        eu posuere arcu lacus lobortis nibh. Donec at magna nibh. </p>
                     <div class="search">
                         <form action="{% url 'search' %}">
                             <!-- Form Row 1 -->
@@ -85,7 +84,7 @@
                                 <img class="card-img-top" src="{{ listing.photo_main.url }}" alt="">
                                 <div class="card-img-overlay">
                                     <h2>
-                                        <span class="badge badge-secondary text-white">${{ listing.price | intcomma }}</span>
+                                        <span class="badge badge-secondary text-white">£{{ listing.price | intcomma }}</span>
                                     </h2>
                                 </div>
                                 <div class="card-body">
@@ -138,28 +137,23 @@
                     <i class="fas fa-comment fa-4x mr-4"></i>
                     <hr>
                     <h3>Consulting Services</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae,
-                        provident iste
-                        consequatur
-                        hic dignissimos ratione ea quae.</p>
+                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                        Proin eget convallis sapien, quis malesuada dui. Etiam blandit facilisis tellus in malesuada. </p>
                 </div>
                 <div class="col-md-4">
                     <i class="fas fa-home fa-4x mr-4"></i>
                     <hr>
                     <h3>Propery Management</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae,
-                        provident iste
-                        consequatur
-                        hic dignissimos ratione ea quae.</p>
+                    <p>Cras sit amet vehicula elit, sed rutrum tellus. Mauris malesuada mauris eu tellus volutpat
+                        malesuada. Mauris nec lobortis libero. Vivamus in egestas odio, in luctus risus.</p>
                 </div>
                 <div class="col-md-4">
                     <i class="fas fa-suitcase fa-4x mr-4"></i>
                     <hr>
                     <h3>Renting & Selling</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae,
-                        provident iste
-                        consequatur
-                        hic dignissimos ratione ea quae.</p>
+                    <p>Sed molestie, nunc eu
+                        lobortis consectetur, turpis augue rhoncus lectus, sit amet volutpat mi arcu ut tellus.
+                        Integer ante lorem, sodales eget malesuada eu, gravida ut metus.</p>
                 </div>
             </div>
         </div>
